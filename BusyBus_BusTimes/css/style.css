@@ -1,0 +1,199 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	color: #494949;
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  /* background-color: #DADADA;
+  box-sizing: border-box; */
+}
+.map {
+  margin: 0 auto;
+  width: 420px;
+  /* height: 420px; */
+  height: 420px;
+  /* background-color: #DADADA; */
+  background-image: url("../images/map.png");
+  box-sizing: border-box;
+}
+.status_bar{
+  position: relative;
+  width: 414px;
+  height: 26px;
+  left: 0px;
+  top: 0px;
+}
+.header {
+  float: center;
+  margin-top: 35px;
+  margin-left: 20px;
+
+
+}
+ .back_button {
+   float: left;
+   margin-top: 2.5%;
+   width: 10px;
+   height: 20px;
+
+ }
+
+.text_1{
+  font-size: 1em;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.route_name {
+  float: center;
+  postion: relative;
+  width: 240px;
+  height: 38px;
+  margin-left: 20%;
+  padding-right: 5%;
+  top: 46px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(218, 218, 218, 0.25);
+}
+
+.bus_icon{
+float: right;
+margin-top: -28px;
+margin-right: 10px;
+width:10px;
+height: 14px;
+}
+.bluebus {
+  position: relative;
+  width: 45.62px;
+  height: 51px;
+  left: 160px;
+  top: 180px;
+  -webkit-animation: diagonal 1s infinite  alternate;
+   animation: diagonal 1s infinite  alternate;
+}
+
+.purplebus {
+  position: relative;
+  width: 57.97px;
+  height: 64.8px;
+  left: 250.04px;
+  top: 65px;
+  -webkit-animation: mover 1s infinite  alternate;
+   animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+@-webkit-keyframes diagonal {
+    0%       { transform: translatex(-15px) translatey(-30px) }
+    100%     { transform: translatex(-15px) translatey(-20px) }
+  }
+
+.routes {
+  position: relative;
+  width: 100%;
+  height: 1120px;
+   box-sizing: border-box;
+   background-color: white;
+  border-top: 2px solid #bcbec0;
+}
+
+.pull_up {
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.location {
+    padding: 5%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #6EC2FF;
+    border: 15px solid #FFFEFE;
+    border-radius: 20px;
+
+}
+
+/* text */
+
+h1 {
+  font-size: 2.2em;
+  font-color: black;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-color: black;
+  line-height: 1.5em;
+
+}
+
+h3 {
+  font-size: 1.1em;
+  font-color: black;
+  font-weight: bold;
+  line-height: 1.5em;
+  float: right;
+  position: relative;
+    bottom: 40px;
+    text-align: right;
+}
+
+/* colors */
+
+#blue-background {
+  background-color: #6EC2FF;
+}
+
+#blue-background:hover {
+  background-color: #B4E0FF;
+}
+
+#purple-background {
+  background-color: #BF38FF;
+}
+#purple-background:hover {
+  background-color: #D682FF;
+}
+
+#orange-background {
+  background-color: #FFA14B;
+}
+#orange-background:hover {
+  background-color: #FFC085;
+}
+#grey-background {
+  background-color: #DADADA;
+}
+
+#grey {
+  color: #979797;
+}
+#yellow-background {
+background-color: #FFC700;
+width: 36px;
+height: 4px;
+}
