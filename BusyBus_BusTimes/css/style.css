@@ -15,6 +15,7 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
+
   /* background-color: #DADADA;
   box-sizing: border-box; */
 }
@@ -112,7 +113,10 @@ height: 14px;
 .routes {
   position: relative;
   width: 100%;
-  height: 1120px;
+  height: 306px;
+  overflow: auto;
+
+  /* height: 1120px; */
    box-sizing: border-box;
    background-color: white;
   border-top: 2px solid #bcbec0;
