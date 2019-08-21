@@ -1,0 +1,29 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	color: #494949;
+  font-size: 12px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  height: 736px;
+  background-color: #FFC700;
+}
+
+.loading_icon {
+position: relative;
+width: 139.35px;
+height: 134.01px;
+left: 137px;
+top: 301px;
+
+}
