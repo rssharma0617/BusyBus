@@ -6,7 +6,7 @@ body {
 	background-color: grey;
 	color: #494949;
   font-size: 12px;
-  font-family: Poppins;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
 
@@ -69,7 +69,19 @@ margin-left: 10px;
 }
 
 
+input {
+font-family: "Poppins", Arial, sans-serif;
+font-size: 1em;
+border: none;
+margin-left: 5%;
+margin-top: 4%;
+color: #979797;
+width: 65%
+}
+
+
 .text_1{
+
   font-size: 1em;
   text-align: left;
   padding-left: 30px;
@@ -90,11 +102,11 @@ margin-left: 10px;
     box-shadow: 0px 4px 4px rgba(218, 218, 218, 0.25);
 
 }
-.current_location:hover  {
+/* .current_location:hover  {
   background-color: #DADADA;
-}
+} */
 
-.search_location {
+ .search_location {
     float: center;
     postion: relative;
     width: 240px;
@@ -108,9 +120,11 @@ margin-left: 10px;
 
 }
 
-.search_location:hover  {
+/* .search_location:hover  {
   background-color: #DADADA;
-}
+} */
+
+
 
 /* map icons */
 
