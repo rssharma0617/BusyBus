@@ -201,3 +201,10 @@ background-color: #FFC700;
 width: 36px;
 height: 4px;
 }
+#red-background {
+background-color: #FF6E6E;
+}
+
+#red-background:hover {
+background-color: #FFB7B7;
+}
